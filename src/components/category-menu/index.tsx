@@ -1,9 +1,13 @@
+import { MenuItem } from '../menu-item';
 import styles from './styles.module.css'
 
 export function CategoryMenu() {
   return (
     <div className={styles.directoryMenu}>
-      Enter
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
     </div>
   );
 }
